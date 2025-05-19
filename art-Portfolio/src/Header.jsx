@@ -23,7 +23,7 @@ const styles = {
             li: {
                 display: "inline",
                 float: "left",
-                margin: "0 8vw",
+                margin: "0 4vw",
             },
             listLink: {
                 fontFamily: "Cutive Mono",
@@ -41,12 +41,12 @@ const styles = {
     return(   
         <header>
             <h1 style={styles.header}> Jayden Burrows </h1>
-            <h2 style={styles.smallerHeader}> Best Works </h2>
+            <h2 style={styles.smallerHeader}> Portfolio </h2>
             <nav style={styles.navbar}> 
                 <ul style={styles.ul}>
-                    <li style={styles.li}> <a style={styles.listLink} href="#Drawing"> Drawing </a> </li>
-                    <li style={styles.li}> <a style={styles.listLink} href="#Painting"> Painting </a> </li>
-                    <li style={styles.li}> <a style={styles.listLink} href="#PixelArt"> Pixel Art </a> </li>
+                    <li style={styles.li}> <a style={styles.listLink} href="#Traditional"> Traditional </a> </li>
+                    <li style={styles.li}> <a style={styles.listLink} href="#Digital"> Digital </a> </li>
+                    <li style={styles.li}> <a style={styles.listLink} href="#Photography"> Photography </a> </li>
                 </ul>
             </nav>
             <hr></hr>
