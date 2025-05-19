@@ -24,7 +24,6 @@ function App() {
       <Header/>
       <div className="art">
         <h2 id="Traditional"> Traditional Art </h2>
-        <img src={blueWaterColorGuy}/>
         <Card url={ballerinaGuy} desc="Sketch of a man done in pencil"/>
         <Card url={blueWaterColorGuy} desc="Painting of man done in watercolor"/>
         <Card url={bellaSunlight} desc="Painting of dog done in watercolor"/>
