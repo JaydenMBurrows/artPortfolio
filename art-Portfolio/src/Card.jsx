@@ -1,6 +1,6 @@
 
 function Card(props) {
-    let relUrl = '../src/assets/' + props.url + '.png';
+    let relUrl = './src/assets/' + props.url + '.png';
 
     return(
         <div>
